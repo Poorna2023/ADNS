@@ -216,7 +216,7 @@ void testRocketfuelRouteViewsDataset()
 	fprintf(stdout, "Make sure to modify VeriFlow::updateForwardingGraphs() and Trie::getForwardingGraph() to handle the internal subnets (10.*.*.*).\n");
 	fflush(stdout);
 
-	string baseDir = "/home/mininet/ADNS/data/AS-1755/";
+	string baseDir = "/home/mininet/ADNS1/data/AS-1755/";
 	DIR *dp;
 	struct dirent *dirp;
 	vector< string > deviceFileList;
